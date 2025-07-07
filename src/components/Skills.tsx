@@ -8,28 +8,28 @@ const Skills = () => {
     {
       title: 'Frontend Development',
       icon: <Code className="w-6 h-6" />,
-      skills: ['React', 'TypeScript', 'JavaScript', 'HTML5', 'CSS3', 'Tailwind CSS', 'Bootstrap', 'jQuery'],
+      skills: ['Angular','React', 'JavaScript', 'HTML', 'CSS', 'PrimeNg','Tailwind CSS', 'Bootstrap', ],
       color: 'bg-blue-50 text-blue-700 border-blue-200',
       gradient: 'from-blue-500 to-cyan-500'
     },
     {
       title: 'Backend Development',
       icon: <Database className="w-6 h-6" />,
-      skills: ['Node.js', 'Express', 'MongoDB', 'MySQL', 'PostgreSQL', 'REST APIs', 'GraphQL'],
+      skills: ['Node.js', 'Express', 'MongoDB', 'MySQL', 'PostgreSQL', 'REST APIs','Redis','elastic search'],
       color: 'bg-green-50 text-green-700 border-green-200',
       gradient: 'from-green-500 to-emerald-500'
     },
-    {
-      title: 'Design & UI/UX',
-      icon: <Palette className="w-6 h-6" />,
-      skills: ['Figma', 'Photoshop', 'Adobe XD', 'Sketch', 'Responsive Design', 'User Experience'],
-      color: 'bg-purple-50 text-purple-700 border-purple-200',
-      gradient: 'from-purple-500 to-pink-500'
-    },
+    // {
+    //   title: 'Design & UI/UX',
+    //   icon: <Palette className="w-6 h-6" />,
+    //   skills: ['Figma', 'Photoshop', 'Adobe XD', 'Sketch', 'Responsive Design', 'User Experience'],
+    //   color: 'bg-purple-50 text-purple-700 border-purple-200',
+    //   gradient: 'from-purple-500 to-pink-500'
+    // },
     {
       title: 'Tools & Technologies',
       icon: <Wrench className="w-6 h-6" />,
-      skills: ['Git', 'Docker', 'AWS', 'VS Code', 'Postman', 'Webpack', 'Linux'],
+      skills: ['Git','Postman', 'Kibana', 'VS Code', 'Linux','Docker'],
       color: 'bg-orange-50 text-orange-700 border-orange-200',
       gradient: 'from-orange-500 to-red-500'
     }

@@ -26,7 +26,7 @@ const Hero = () => {
             <div className="absolute inset-0 bg-gradient-to-r from-white/30 to-white/10 rounded-full blur-md transform scale-110"></div>
             <img
               src="/lovable-uploads/454a60ea-7b8c-444f-87b5-1549446aa28d.png"
-              alt="Richard Scott"
+              alt="Rella Ramu"
               className="relative w-56 h-56 rounded-full mx-auto object-cover object-center border-4 border-white/30 shadow-2xl hover:scale-105 transition-all duration-500 hover:border-white/40"
               style={{ objectPosition: 'center top' }}
             />
@@ -35,29 +35,28 @@ const Hero = () => {
         </div>
 
         <h1 className="text-5xl md:text-7xl font-bold mb-4 animate-fade-in delay-300 bg-gradient-to-r from-white to-white/80 bg-clip-text text-transparent">
-          Richard Scott
+        Rella Ramu
         </h1>
         
         <h2 className="text-2xl md:text-4xl font-light mb-6 text-white/90 animate-fade-in delay-500">
           <span className="bg-gradient-to-r from-white to-white/70 bg-clip-text text-transparent">
-            Full Stack Developer
+            MEAN Stack Developer
           </span>
         </h2>
         
         <p className="text-lg md:text-xl mb-8 text-white/80 max-w-3xl mx-auto leading-relaxed animate-fade-in delay-700">
-          Passionate developer with expertise in modern web technologies, 
-          creating innovative solutions that bridge design and functionality with a focus on user experience.
+         I’m a passionate Full Stack Developer with 2.6 years of experience building dynamic, user-friendly applications using Angular, React, Node.js, MongoDB, and PrimeNG. I specialize in crafting backend solutions primarily for the healthcare domain. With a deep understanding of modern web technologies, I create innovative, scalable solutions that bridge design and functionality — always with a strong focus on user experience and real-world impact.
         </p>
 
         {/* Social Links */}
         <div className="flex justify-center gap-6 mb-8 animate-fade-in delay-900">
-          <a href="#" className="w-12 h-12 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center hover:bg-white/30 transition-all duration-300 hover:scale-110">
+          <a href="https://github.com/Nani-769" className="w-12 h-12 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center hover:bg-white/30 transition-all duration-300 hover:scale-110">
             <Github className="w-6 h-6" />
           </a>
-          <a href="#" className="w-12 h-12 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center hover:bg-white/30 transition-all duration-300 hover:scale-110">
+          <a href="https://www.linkedin.com/in/ram45769/?trk=public-profile-join-page" className="w-12 h-12 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center hover:bg-white/30 transition-all duration-300 hover:scale-110">
             <Linkedin className="w-6 h-6" />
           </a>
-          <a href="#" className="w-12 h-12 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center hover:bg-white/30 transition-all duration-300 hover:scale-110">
+          <a href="rellaramu769@gmail.com" className="w-12 h-12 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center hover:bg-white/30 transition-all duration-300 hover:scale-110">
             <Mail className="w-6 h-6" />
           </a>
         </div>
@@ -68,7 +67,7 @@ const Hero = () => {
             variant="secondary"
             className="bg-white text-red-600 hover:bg-white/90 font-semibold px-8 py-4 rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105 text-lg"
           >
-            <Mail className="mr-2 h-5 w-5" />
+            <Mail className="mr-2 h-5 w-5 " />
             Get In Touch
           </Button>
           <Button 
@@ -82,14 +81,14 @@ const Hero = () => {
         </div>
 
         {/* Enhanced Scroll Indicator */}
-        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+        {/* <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce ">
           <div className="flex flex-col items-center">
             <div className="w-6 h-10 border-2 border-white/40 rounded-full flex justify-center">
               <div className="w-1 h-3 bg-white/60 rounded-full mt-2 animate-pulse"></div>
             </div>
             <ChevronDown className="h-6 w-6 text-white/60 mt-2" />
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

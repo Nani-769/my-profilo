@@ -31,11 +31,11 @@ const Contact = () => {
   };
 
   const contactInfo = [
-    { icon: Mail, label: 'Email', value: 'richard.scott@email.com', href: 'mailto:richard.scott@email.com' },
-    { icon: Phone, label: 'Phone', value: '+1 (555) 123-4567', href: 'tel:+15551234567' },
-    { icon: MapPin, label: 'Location', value: 'San Francisco, CA', href: '#' },
-    { icon: Linkedin, label: 'LinkedIn', value: 'linkedin.com/in/richardscott', href: 'https://linkedin.com' },
-    { icon: Github, label: 'GitHub', value: 'github.com/richardscott', href: 'https://github.com' },
+    { icon: Mail, label: 'Email', value: 'rellaramu769@gmail.com', href: 'mailto:rellaramu769@gmail.com' },
+    { icon: Phone, label: 'Phone', value: '+91916084579', href:'tel:+91916084579'},
+    { icon: MapPin, label: 'Location', value: 'Ameerpet,Hyd,Telangana,500016', href: '#' },
+    { icon: Linkedin, label: 'LinkedIn', value: 'linkedin.com/Ram', href: 'https://www.linkedin.com/in/ram45769/?trk=public-profile-join-page' },
+    { icon: Github, label: 'GitHub', value: 'github.com/Nani-769', href: 'https://github.com/Nani-769' },
   ];
 
   return (
@@ -123,7 +123,7 @@ const Contact = () => {
         {/* Footer */}
         <div className="mt-20 pt-8 border-t border-gray-200 text-center">
           <p className="text-gray-600">
-            © 2024 Richard Scott. All rights reserved. | Built with passion and precision.
+            © 2024 Rella Ramu. All rights reserved. | Built with passion and precision.
           </p>
         </div>
       </div>
