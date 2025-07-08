@@ -18,6 +18,7 @@ const Contact = () => {
   e.preventDefault();
 
   try {
+    // 
     const response = await fetch('https://my-profile-node.onrender.com/api/contact', {
       method: 'POST',
       headers: {
