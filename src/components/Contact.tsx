@@ -59,7 +59,7 @@ const Contact = () => {
 
   const contactInfo = [
     { icon: Mail, label: 'Email', value: 'rellaramu769@gmail.com', href: 'mailto:rellaramu769@gmail.com' },
-    { icon: Phone, label: 'Phone', value: '+91916084579', href:'tel:+91916084579'},
+    { icon: Phone, label: 'Phone', value: '+919160845769', href:'tel:+919160845769'},
     { icon: MapPin, label: 'Location', value: 'Ameerpet,Hyd,Telangana,500016', href: '#' },
     { icon: Linkedin, label: 'LinkedIn', value: 'linkedin.com/Ram', href: 'https://www.linkedin.com/in/ram45769/?trk=public-profile-join-page' },
     { icon: Github, label: 'GitHub', value: 'github.com/Nani-769', href: 'https://github.com/Nani-769' },
